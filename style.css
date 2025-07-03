@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #24292e;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.project {
+  display: flex;
+  background: white;
+  margin: 1rem auto;
+  max-width: 800px;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+  gap: 1rem;
+}
+
+.project img {
+  width: 200px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.project h2 {
+  margin: 0.2rem 0;
+}
+
+.project a {
+  text-decoration: none;
+  color: #0366d6;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  background: #ddd;
+}
