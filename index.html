@@ -1,37 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nawee Pukpak | Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <header>
-    <h1>My Portfolio</h1>
-    <p>Projects built with love and code ❤️</p>
-  </header>
 
-  <section class="project">
-    <img src="images/my-project.png" alt="Screenshot of project">
-    <div>
-      <h2>ASPMonitor Dashboard</h2>
-      <p>A real-time web dashboard for visualizing patient test results, deployed via IIS, built with ASP.NET Core MVC and SQL Server.</p>
-      <a href="https://github.com/quiiznon1234/ASPmonitor-Dashboard" target="_blank">🔗 View on GitHub</a>
-    </div>
-  </section>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1><a href="#">NAWEE P.</a></h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
 
-  <section class="project">
-    <img src="images/my-project.png" alt="Screenshot of project">
-    <div>
-      <h2>ASPMonitor Interface (WinApp)</h2>
-      <p>A Windows Forms application for parsing and pushing .RES test result files into SQL Server, acting as a backend for the ASPMonitor Dashboard.</p>
-      <a href="https://github.com/quiiznon1234/ASPmonitor-Interface" target="_blank">🔗 View on GitHub</a>
-    </div>
-  </section>
+        <div class="hero">
+            <div class="hero-text">
+                [cite_start]<h1>สวัสดีครับ, ผมชื่อ นาวี ปุ๊กปัก [cite: 1]</h1>
+                [cite_start]<p>Full Stack Developer [cite: 1] [cite_start]ที่มีความสนใจใน AI และ Data [cite: 30] [cite_start]และมุ่งมั่นที่จะพัฒนาไปสู่สายงาน Machine Learning [cite: 31]</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">ดูผลงานของฉัน</a>
+                    [cite_start]<a href="https://github.com/quiiznon1234" target="_blank" class="btn btn-secondary">GitHub [cite: 4]</a>
+                </div>
+            </div>
+        </div>
+    </header>
 
-  <footer>
-    <p>Created by Your Name · © 2025</p>
-  </footer>
+    <main>
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    [cite_start]<p>ผมเป็นคนขี้สงสัยและขยันหมั่นเพียร มีความรับผิดชอบสูง และมีความคิดสร้างสรรค์ [cite: 28] [cite_start]ในเวลาว่าง ผมชอบเล่นเกมและออกกำลังกาย [cite: 29]</p>
+                    [cite_start]<p>ด้วยความสนใจส่วนตัวในด้าน AI และ Data [cite: 30] [cite_start]ทำให้ผมเริ่มต้นเส้นทางในสายงานโปรแกรมเมอร์ และมีความฝันที่จะก้าวไปสู่สายงาน Machine Learning ในอนาคต [cite: 31]</p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="skills">
+            <h2 class="section-title">Skills & Frameworks</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        [cite_start]<li>HTML/CSS [cite: 10]</li>
+                        [cite_start]<li>JavaScript [cite: 12]</li>
+                        [cite_start]<li>SQL [cite: 14]</li>
+                        [cite_start]<li>PHP [cite: 16]</li>
+                        [cite_start]<li>Python [cite: 13]</li>
+                        [cite_start]<li>Java [cite: 10]</li>
+                        [cite_start]<li>C# [cite: 15]</li>
+                        [cite_start]<li>C [cite: 11]</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks & Tools</h3>
+                    <ul>
+                        [cite_start]<li>ASP.NET [cite: 22]</li>
+                        [cite_start]<li>Bootstrap [cite: 19]</li>
+                        [cite_start]<li>SQL Server 2019 [cite: 23]</li>
+                        [cite_start]<li>PHPMyAdmin [cite: 21]</li>
+                        [cite_start]<li>GitHub [cite: 20]</li>
+                        [cite_start]<li>Figma [cite: 18]</li>
+                        [cite_start]<li>Visual Studio 2022 [cite: 26]</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    [cite_start]<h3>Dashboard + Monitor Interface (Internship Project) [cite: 43]</h3>
+                    [cite_start]<p>พัฒนา Desktop App (Monitor Interface) สำหรับอ่านไฟล์ .RES, สำรองข้อมูล และบันทึกลง SQL Server พร้อมระบบ Logging แบบ Real-time และสร้าง Web Dashboard เพื่อแสดงผลข้อมูล [cite: 43, 44]</p>
+                    <div class="tech-stack">
+                        <span>ASP.NET</span>
+                        <span>C#</span>
+                        <span>SQL Server</span>
+                    </div>
+                    <div class="project-links">
+                        [cite_start]<a href="https://github.com/quiiznon1234/ASPmonitor-Dashboard" target="_blank">Dashboard Repo [cite: 47]</a>
+                        [cite_start]<a href="https://github.com/quiiznon1234/ASPmonitor-Interface" target="_blank">Interface Repo [cite: 46]</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    [cite_start]<h3>TH-NKCafe Management System [cite: 34]</h3>
+                    [cite_start]<p>เว็บแอปพลิเคชัน Full-stack สำหรับจัดการร้านคาเฟ่ ประกอบด้วยระบบสั่งซื้อ และระบบจองโต๊ะ/สตูดิโอ [cite: 35]</p>
+                    <div class="tech-stack">
+                        [cite_start]<span>PHP [cite: 35]</span>
+                        [cite_start]<span>HTML [cite: 35]</span>
+                        [cite_start]<span>CSS [cite: 35]</span>
+                        [cite_start]<span>JavaScript [cite: 35]</span>
+                        [cite_start]<span>Bootstrap [cite: 35]</span>
+                        [cite_start]<span>MySQL [cite: 35]</span>
+                    </div>
+                    <div class="project-links">
+                        [cite_start]<a href="https://github.com/quiiznon1234/TH-NKCafe-management" target="_blank">GitHub [cite: 36]</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <p>สามารถติดต่อผมได้ผ่านช่องทางด้านล่างนี้</p>
+        <div class="contact-links">
+            [cite_start]<a href="mailto:navypukpak@gmail.com" class="contact-icon"><i class="fas fa-envelope"></i> navypukpak@gmail.com [cite: 3]</a>
+            [cite_start]<a href="tel:0959037625" class="contact-icon"><i class="fas fa-phone"></i> 095-903-7625 [cite: 2]</a>
+            [cite_start]<a href="https://github.com/quiiznon1234" target="_blank" class="contact-icon"><i class="fab fa-github"></i> GitHub [cite: 4]</a>
+        </div>
+        <p class="copyright">&copy; 2025 Nawee Pukpak. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
